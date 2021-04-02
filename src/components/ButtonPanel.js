@@ -8,6 +8,7 @@ export default function ButtonPanel() {
   const Group3 = ['4', '5', '6', '-'];
   const Group4 = ['1', '2', '3', '+'];
   const Group5 = ['0', '.', '='];
+  const rightButton = ['÷', 'x', '-', '+', '='];
 
   const Groups = [Group1, Group2, Group3, Group4, Group5];
 
@@ -16,7 +17,7 @@ export default function ButtonPanel() {
       {Groups.map((group) => (
         <div className="group" key={group}>
           {group.map((char) => (
-            <Button key={char} className="touche" buttonName={`${char}`} />
+            <Button key={char} buttonName={`${char}`} color={!rightButton.includes(char)} wide={char === '0'} />
           ))}
         </div>
       ))}
