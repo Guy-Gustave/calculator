@@ -8,7 +8,7 @@ Build a working calculator with react, a project from microverse main-curriculum
 
 
 ### `Live link`
-[Link to Netlify](https://confident-aryabhata-6db630.netlify.app/)
+[Link to Netlify](https://dreamy-jackson-351a8b.netlify.app/)
 
 #### To get this project on your local machine, follow these steps:
 
