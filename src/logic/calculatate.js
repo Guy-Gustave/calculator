@@ -5,6 +5,8 @@ export default function calculatate(calculator, buttonName) {
 
   const operations = ['+', '-', 'x', '÷', '%'];
   // const digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+  // eslint-disable-next-line no-unused-vars
+  // const operationTotal = null;
 
   if (buttonName === '+/-') {
     if (next) {
