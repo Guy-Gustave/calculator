@@ -12,10 +12,10 @@ export default function operate(numberOne, numberTwo, operation) {
     case 'x':
       return x.mul(y).toString();
     default:
-      if (numberTwo === '0') {
+      if (y === '0') {
         total = 'Infinity';
       } else {
-        total = x.div(numberTwo).toString();
+        total = x.div(y).toString();
       }
       return total;
   }
