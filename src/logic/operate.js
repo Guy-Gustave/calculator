@@ -12,7 +12,7 @@ export default function operate(numberOne, numberTwo, operation) {
     case 'x':
       return x.mul(y).toString();
     case '%':
-      return x.div(100).toString();
+      return x.mod(100).toString();
     default:
       if (y === '0') {
         total = 'Infinity';
