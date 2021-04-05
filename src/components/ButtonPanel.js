@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import '../index.css';
+import operate from '../logic/operate'
 
 export default function ButtonPanel() {
   const Group1 = ['AC', '+/-', '%', '÷'];
