@@ -17,21 +17,10 @@ export default function ButtonPanel() {
       {Groups.map((group) => (
         <div className="group" key={group}>
           {group.map((char) => (
-            <Button key={char} buttonName={`${char}`}
-            color={!rightButton.includes(char)}
-            wide={char === '0'}
-            clickHandler= {handleClick} />
+            <Button key={char} buttonName={`${char}`} color={!rightButton.includes(char)} wide={char === '0'} />
           ))}
         </div>
       ))}
     </div>
   );
 }
-
-ButtonPanel.defaultProps = {
-  clickHandler: null,
-};
-
-ButtonPanel.propTypes = {
-  clickHandler: PropTypes.func,
-};
