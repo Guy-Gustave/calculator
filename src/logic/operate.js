@@ -11,6 +11,8 @@ export default function operate(numberOne, numberTwo, operation) {
       return x.plus(y).toString();
     case 'x':
       return x.mul(y).toString();
+    case '%':
+      return x.div(100).toString();
     default:
       if (y === '0') {
         total = 'Infinity';
