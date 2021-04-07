@@ -7,7 +7,7 @@ Build a working calculator with react, a project from microverse main-curriculum
 - React
 
 ## ScreenShot
-![screenshot](screenShot.png)
+![screenshot](<img src="ressources/large1.png">)
 
 ### `Live link`
 [Link to Netlify](https://epic-williams-68ad68.netlify.app/)
