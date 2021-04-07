@@ -63,5 +63,20 @@ export default function Calculatate(calculator, buttonName) {
     operation = null;
   }
 
+  if (numbers.includes(buttonName)) {
+    if (total && operationTotal) {
+      operationTotal = null;
+      total = buttonName;
+    } else if (operation === null && total === null) {
+      total = buttonName;
+    } else if (operation === null && operationTotal === null && total) {
+      total = `${total}${buttonName}`;
+    } else if (next) {
+      next = `${next}${buttonName}`;
+    } else {
+      next = buttonName;
+    }
+  }
+
   return { total, next, operation };
 }
