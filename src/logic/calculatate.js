@@ -1,11 +1,12 @@
 import operate from './operate';
 
+let operationTotal = null;
+
 export default function Calculatate(calculator, buttonName) {
   let { total, next, operation } = calculator;
 
   const operations = ['+', '-', 'x', '÷', '%'];
   const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-  let { total, next, operation } = calculator;
 
   if (buttonName === '+/-') {
     if (next) {
