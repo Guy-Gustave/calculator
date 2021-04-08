@@ -1,8 +1,9 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
+import '../index.css';
 
 const Home = () => (
-  <>
+  <div className="home">
     <NavBar />
     <h1>Math Magicians</h1>
     <p>
@@ -14,7 +15,7 @@ const Home = () => (
       debitis quos at consectetur laudantium, similique, itaque, nesciunt
       veritatis ex?
     </p>
-  </>
+  </div>
 );
 
 export default Home;

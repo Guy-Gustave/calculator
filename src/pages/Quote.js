@@ -1,14 +1,17 @@
+/* eslint-disable */
 import React from 'react';
 import NavBar from '../components/NavBar';
 
 const Quote = () => {
-  <div>
+  return(
+  <div className="quote">
     <NavBar />
-    <h1 className="quote">
+    <h1>
       Mathematics is not about numbers, equations, computations,
       or algorithms: it is about understanding. –William Paul Thurston
     </h1>
-  </div>;
+  </div>
+  );
 };
 
 export default Quote;
