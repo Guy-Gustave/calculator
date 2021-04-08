@@ -1,20 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './index.css';
-import App from './components/App';
-import Home from './components/Home';
-import Quote from './components/Quote';
+// import App from './components/App';
+import Affiche from './Affiche';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/App" exact component={App} />
-        <Route path="/Quote" exact component={Quote} />
-      </Switch>
-    </BrowserRouter>
+    <Affiche />
   </React.StrictMode>,
   document.getElementById('root'),
 );
