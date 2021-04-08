@@ -12,7 +12,9 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  margin: 2rem;
 }
+
 
 a {
   color: rgb(12, 10, 11);
