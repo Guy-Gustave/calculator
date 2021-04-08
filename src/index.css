@@ -9,6 +9,47 @@ body {
   font-size: 2rem;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.quote h1 {
+  color: #56428b;
+  font-weight: 600;
+  font-size: 2rem;
+  width: 700px;
+  text-align: center;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 18rem;
+}
+
+.home p {
+  color: #345467;
+  padding: 2rem;
+  margin: 3rem;
+}
+
+.home h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: violet;
+}
+
+a {
+  color: rgb(12, 10, 11);
+  font-size: 30px;
+  padding: 5px;
+}
+
+a:not(:last-child) {
+  border-right: 1px solid rgb(56, 46, 46);
+}
+
 .calcul {
   border: 2px solid rgb(26, 25, 24);
   background: rgb(170, 167, 162);
