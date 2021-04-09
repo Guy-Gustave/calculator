@@ -11,21 +11,26 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 2rem;
+  align-items: center;
 }
 
-.quote h1 {
-  color: #56428b;
+.navbar h1 {
+  font-size: 3rem;
   font-weight: 600;
+}
+
+.quote {
+  width: 100%;
+  height: fit-content;
+}
+
+.quote h3 {
+  margin: 8rem;
   font-size: 2rem;
-  width: 700px;
-  text-align: center;
-  padding: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 18rem;
+  font-weight: 500;
+  padding: 10px 40px;
 }
 
 .home p {
@@ -37,7 +42,8 @@ body {
 .home h1 {
   text-align: center;
   font-size: 3rem;
-  color: violet;
+  font-weight: 600;
+  /* color: violet; */
 }
 
 a {
@@ -55,7 +61,8 @@ a:not(:last-child) {
   background: rgb(170, 167, 162);
   width: 700px;
   height: 500px;
-  margin: 4rem;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   line-height: 2rem;
@@ -64,8 +71,8 @@ a:not(:last-child) {
 .App {
   display: flex;
   flex-direction: column;
-  width: 700px;
-  margin: 20px auto;
+  /* width: 700px; */
+  
 }
 
 .result {
@@ -73,8 +80,9 @@ a:not(:last-child) {
   margin-left: 4rem;
   margin-bottom: -4rem;
   background-color: gray;
-  width: 100%;
+  width: 700px;
   height: 100px;
+  margin: auto;
   color: #fff;
   font-weight: bolder;
   justify-content: flex-end;
