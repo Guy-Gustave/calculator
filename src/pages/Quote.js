@@ -6,10 +6,10 @@ const Quote = () => {
   return(
   <div className="quote">
     <NavBar />
-    <h1>
+    <h3>
       Mathematics is not about numbers, equations, computations,
       or algorithms: it is about understanding. –William Paul Thurston
-    </h1>
+    </h3>
   </div>
   );
 };
