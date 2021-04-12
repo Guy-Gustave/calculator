@@ -5,7 +5,7 @@ import '../index.css';
 const Home = () => (
   <div className="home">
     <NavBar />
-    <h1>Math Magicians</h1>
+    <h3>Lets do together some calculations</h3>
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur,
       quis delectus. Aliquid qui recusandae, maiores tempora perspiciatis

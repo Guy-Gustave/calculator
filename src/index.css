@@ -74,11 +74,10 @@ a:not(:last-child) {
 
 .result {
   display: flex;
-  margin-left: 4rem;
-  margin-bottom: -4rem;
   background-color: gray;
   width: 700px;
   height: 100px;
+  margin: auto;
   color: #fff;
   font-weight: bolder;
   justify-content: flex-end;
