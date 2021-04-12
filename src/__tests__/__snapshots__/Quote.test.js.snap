@@ -7,27 +7,35 @@ exports[`renders correctly 1`] = `
   <div
     className="navbar"
   >
-    <a
-      href="/"
-      onClick={[Function]}
+    <h1>
+      Math Magicians
+    </h1>
+    <div
+      className="nav"
     >
-      Home 
-    </a>
-    <a
-      href="/App"
-      onClick={[Function]}
-    >
-      Calculator 
-    </a>
-    <a
-      href="/Quote"
-      onClick={[Function]}
-    >
-      Quote 
-    </a>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+      <a
+        href="/App"
+        onClick={[Function]}
+      >
+        Calculator 
+      </a>
+      <a
+        href="/Quote"
+        onClick={[Function]}
+      >
+        Quote 
+      </a>
+    </div>
   </div>
   <h3>
     Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. –William Paul Thurston
   </h3>
+  ,
 </div>
 `;

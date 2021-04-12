@@ -1,10 +1,7 @@
-/* eslint-disable */
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import NavBar from '../components/NavBar';
-import Quote from '../pages/Quote';
 import renderer from 'react-test-renderer';
-// const Quote = require('../pages/Quote');
 
 it('renders correctly', () => {
   const tree = renderer
