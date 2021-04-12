@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="navbar"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <div
+      className="nav"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+      <a
+        href="/App"
+        onClick={[Function]}
+      >
+        Calculator 
+      </a>
+      <a
+        href="/Quote"
+        onClick={[Function]}
+      >
+        Quote 
+      </a>
+    </div>
+  </div>
+  <div
+    className="result"
+  >
+    0
+  </div>
+  <div
+    className="calcul"
+  >
+    <div
+      className="group"
+    >
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="orange button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="group"
+    >
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="orange button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="group"
+    >
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="orange button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="group"
+    >
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="orange button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="group"
+    >
+      <button
+        className="gray button text-center text-black button1"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="gray button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="orange button text-center text-black false"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;

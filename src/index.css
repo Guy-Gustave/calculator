@@ -9,12 +9,59 @@ body {
   font-size: 2rem;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.quote {
+  width: 100%;
+}
+
+.quote h3 {
+  margin: 8rem;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 10px 40px;
+}
+
+.home p {
+  color: #345467;
+  padding: 2rem;
+  margin: 3rem;
+}
+
+.home h3 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+a {
+  color: rgb(12, 10, 11);
+  font-size: 30px;
+  padding: 5px;
+}
+
+a:not(:last-child) {
+  border-right: 1px solid rgb(56, 46, 46);
+}
+
 .calcul {
   border: 2px solid rgb(26, 25, 24);
   background: rgb(170, 167, 162);
   width: 700px;
   height: 500px;
-  margin: 4rem;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   line-height: 2rem;
@@ -23,17 +70,14 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  width: 700px;
-  margin: 20px auto;
 }
 
 .result {
   display: flex;
-  margin-left: 4rem;
-  margin-bottom: -4rem;
   background-color: gray;
-  width: 100%;
+  width: 700px;
   height: 100px;
+  margin: auto;
   color: #fff;
   font-weight: bolder;
   justify-content: flex-end;
