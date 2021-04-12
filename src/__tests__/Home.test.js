@@ -20,8 +20,8 @@ it('renders correctly', () => {
           debitis quos at consectetur laudantium, similique, itaque, nesciunt
           veritatis ex?
         </p>
-      </div>
-    ),
+      </div>,
+    )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

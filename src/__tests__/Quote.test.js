@@ -3,7 +3,6 @@ import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import NavBar from '../components/NavBar';
 
-
 it('renders correctly', () => {
   const tree = renderer
     .create(
@@ -13,10 +12,10 @@ it('renders correctly', () => {
         </BrowserRouter>
         <h3>
           Mathematics is not about numbers, equations, computations,
-          or algorithms: it is about understanding. 
-          –William Paul Thurston
-        </h3>,
-      </div>
+          or algorithms: it is about understanding. –William Paul Thurston
+        </h3>
+        ,
+      </div>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();

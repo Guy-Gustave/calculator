@@ -14,7 +14,7 @@ it('renders correctly', () => {
           <Display />
           <ButtonPanel />
         </BrowserRouter>
-      </div>
+      </div>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
