@@ -21,8 +21,7 @@ it('renders correctly', () => {
           veritatis ex?
         </p>
       </div>
-    )
+    ),
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
-
