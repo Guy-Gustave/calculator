@@ -1,8 +1,9 @@
+/* eslint-disable */
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import Quote from '../pages/Quote';
-import renderer from 'react-test-renderer'
+import renderer from 'react-test-renderer';
 // const Quote = require('../pages/Quote');
 
 it('renders correctly', () => {
@@ -15,7 +16,7 @@ it('renders correctly', () => {
         <h3>
           Mathematics is not about numbers, equations, computations,
           or algorithms: it is about understanding. –William Paul Thurston
-        </h3>
+        </h3>,
       </div>
     )
     .toJSON();

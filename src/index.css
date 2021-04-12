@@ -23,7 +23,6 @@ body {
 
 .quote {
   width: 100%;
-  height: fit-content;
 }
 
 .quote h3 {
@@ -71,8 +70,6 @@ a:not(:last-child) {
 .App {
   display: flex;
   flex-direction: column;
-  /* width: 700px; */
-  
 }
 
 .result {
@@ -82,7 +79,6 @@ a:not(:last-child) {
   background-color: gray;
   width: 700px;
   height: 100px;
-  margin: auto;
   color: #fff;
   font-weight: bolder;
   justify-content: flex-end;
